@@ -3,7 +3,8 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 
-const questions = [
+const questions = () => {
+    return inquirer.prompt([
         {
             type: 'input',
             name: 'title',
@@ -153,7 +154,10 @@ const questions = [
                 }
             }
         }
-    ];
+    ]);
+};
+
+
 
 // function to write README file
 const writeFile = fileContent => {
