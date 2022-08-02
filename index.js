@@ -3,8 +3,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 
-const questions = () => {
-    return inquirer.prompt([
+const questions = [
         {
             type: 'input',
             name: 'title',
@@ -152,10 +151,9 @@ const questions = () => {
                     console.log('Please enter a valid email for others to contact you!');
                     return false;
                 }
-            }
-        }
-    ]);
-};
+            } 
+        } 
+    ]; 
 
 
 
