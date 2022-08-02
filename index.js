@@ -1,8 +1,8 @@
 // External Packages Used 
-const inquirer = require(`inquirer`);
+import inquirer from 'inquirer';
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
-// Internal Packages Used 
+
 const questions = [
         {
             type: 'input',
