@@ -1,5 +1,5 @@
 // External Packages Used 
-import inquirer from 'inquirer';
+const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 

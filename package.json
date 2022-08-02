@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "inquirer": "^9.0.2"
+    "inquirer": "^8.2.0"
   },
   "name": "professional-readme-generator",
   "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
