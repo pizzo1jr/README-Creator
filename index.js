@@ -3,13 +3,14 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 const fs = require('fs');
 
-const questions = [
+const promptUser = () => {
+    return inquirer.prompt([
         {
             type: 'input',
             name: 'title',
             message: 'Please provide project title. (Required)',
-            validate: nameInput => {
-                if (nameInput) {
+            validate: titleInput => {
+                if (titleInput) {
                     return true;
                 } else {
                     console.log('Please provide project title!');
@@ -30,19 +31,19 @@ const questions = [
                 }
             }
         },
-        {
-            type: 'input',
-            name: 'repo',
-            message: 'Please enter the name of your Repository. (Required)',
-            validate: repoInput => {
-                if (repoInput) {
-                    return true;
-                } else {
-                    console.log('Please enter name of your Repository!');
-                    return false;
-                }
-            }
-        },
+        // {
+        //     type: 'input',
+        //     name: 'repo',
+        //     message: 'Please enter the name of your Repository. (Required)',
+        //     validate: repoInput => {
+        //         if (repoInput) {
+        //             return true;
+        //         } else {
+        //             console.log('Please enter name of your Repository!');
+        //             return false;
+        //         }
+        //     }
+        // },
         {
             type: 'input',
             mane: 'description',
@@ -153,7 +154,8 @@ const questions = [
                 }
             } 
         } 
-    ]; 
+    ]);
+}; 
 
 
 
@@ -165,6 +167,7 @@ const writeFile = fileContent => {
                 reject(err);
                 return;
             }
+            
             resolve({
                 ok: true,
                 message: 'file created'
@@ -173,16 +176,8 @@ const writeFile = fileContent => {
     });
 };
 
-// function to prompt questions and store user input
-const init = () => {
-    return inquirer.prompt(questions)
-    .then(readmeData => {
-        return readmeData;
-    })
-}
-
 // function will initialize app
-init ()
+promptUser ()
 .then(readmeData => {
     console.log(readmeData);
     return generateMarkdown(readmeData);
@@ -195,7 +190,7 @@ init ()
 })
 .catch(err => {
     console.log(err);
-})
+});
 
 
 

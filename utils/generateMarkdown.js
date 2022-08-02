@@ -97,7 +97,7 @@ function generateMarkdown(data) {
     Please contact me using the following links!
     [Github](https://github.com/${data.github})
     [Email ${data.email}](mailto:${data.email})
-    
+    [Repo] ${data.repo}
     `;
 }
 
