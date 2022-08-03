@@ -56,7 +56,7 @@ ${data.title}
 
 ${renderLicenseBadge(data.license)}
     
-## Description(#table-of-contents)
+## [Description](#table-of-contents)
 
 ${data.description}
 
