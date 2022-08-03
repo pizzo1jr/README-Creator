@@ -13,6 +13,9 @@ This code is a README Generator that makes it much easier to ensure you have the
 - What problem(s) does this project solve? This project solves the problems of missing information and ensuring the reader has everything needed to run this program
 - What did you learn? more about node.js and how to use the terminal effectively
 
+![2022-08-03_00-28-54](https://user-images.githubusercontent.com/102200085/182524560-b9f29469-5501-46ef-b0a7-47efef24573c.gif)
+
+
 ## Table of Contents
      
 - [Description](#description)
