@@ -27,9 +27,9 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
     if (license !== 'no license') {
         return `
-        ## [License](#table-of-contents)
-        The application is covered under the following license:
-        ${renderLicenseLink(license)}
+## License (#table-of-contents)
+The application is covered under the following license:
+${renderLicenseLink(license)}
         `;
     } else {
         return '';

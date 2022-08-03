@@ -21,7 +21,7 @@ description goes here
 - [Installation](#installation)
 - [Usage](#usage)
 
-    * [License](#license)
+* [License](#license)
       
 - [Contributing](#contributing)
 - [Tests](#tests)
