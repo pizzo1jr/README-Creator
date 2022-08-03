@@ -79,6 +79,20 @@ const promptUser = () => {
                     return true;
                 } else {
                     console.log('Please enter a test!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: 'What do you need to install for this program to run effectively (Required)',
+            validate: installationInput => {
+                if (installationInput) {
+                    return true;
+                } else {
+                    console.log('Please enter installaion information!');
+                    return false;
                 }
             }
         },

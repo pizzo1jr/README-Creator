@@ -1,5 +1,5 @@
 
-# title
+# Node.js README Generator
 
 
 ![badge](https://img.shields.io/badge/license-agpl-blue)
@@ -7,12 +7,12 @@
     
 ## [Description](#table-of-contents)
 
-description
+This code is a README Generator that makes it much easier to ensure you have the correct data and licenses needed for a proper README file!
 
-- What was the motivation for this project? motivation
-- Why was this project built? build
-- What problem(s) does this project solve? problem solved
-- What did you learn? help me learn what
+- What was the motivation for this project? To ensure all information in a README is there!
+- Why was this project built? This project was built to create an easy way to create a README file has everything it needs!
+- What problem(s) does this project solve? This project solves the problems of missing information and ensuring the reader has everything needed to run this program
+- What did you learn? more about node.js and how to use the terminal effectively
 
 ## Table of Contents
      
@@ -20,7 +20,7 @@ description
 - [Installation](#installation)
 - [Usage](#usage)
 
-* [License](#license)
+- [License](#license)
       
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -28,14 +28,14 @@ description
 
 ## [Installation](#table-of-contents)
 
-undefined
+Node.js and inquirer
 
 ## [Usage](#table-of-contents)
 
-information on application
+you must install node.js and inquirer in order for it to work effectively
 
 
-## License (#table-of-contents)
+## [License](#table-of-contents)
 The application is covered under the following license:
 
 [agpl](https://choosealicense.com/licenses/agpl)
@@ -48,10 +48,10 @@ no contributors at this time
 
 ## [Tests](#table-of-contents)
 
-no tests were run at this time
+no tests were run at this tme
 
 ## [Questions](#table-of-contents)
 
 Please contact me using the following links!
 [Github](https://github.com/pizzo1jr)
-[Email pizzo@pizzo.com](mailto:pizzo@pizzo.com)
+[Email josephpizzo@rocketmortgage.com](mailto:josephpizzo@rocketmortgage.com)
