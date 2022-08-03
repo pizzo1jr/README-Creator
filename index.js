@@ -127,7 +127,20 @@ const promptUser = () => {
                     return false;
                 }
             } 
-        } 
+        },
+        {
+            type: 'input',
+            name: 'github',
+            message: 'Please enter your GitHub username! (Required)', 
+            validate: githubInput => {
+                if (githubInput) {
+                    return true;
+                } else {
+                    console.log('Please enter github user name!');
+                    return false;
+                }
+            }
+        }
     ]);
 }; 
 
@@ -136,7 +149,7 @@ const promptUser = () => {
 // function to write README file
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/generated-README.md', fileContent, err => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
             if (err) {
                 reject(err);
                 return;

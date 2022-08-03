@@ -51,54 +51,54 @@ function renderLicenseTOC(license) {
 // Function that will generate the Markdown for the README
 function generateMarkdown(data) {
     return `
-    # Title
-     ${data.title}
+# Title
+${data.title}
 
-    ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
     
-    ## Description(#table-of-contents)
+## Description(#table-of-contents)
 
-    ${data.description}
+${data.description}
 
-    - What was the motivation for this project? ${data.what}
-    - Why was this project built? ${data.why}
-    - What problem(s) does this project solve? ${data.problem}
-    - What did you learn? ${data.learn}
+- What was the motivation for this project? ${data.what}
+- Why was this project built? ${data.why}
+- What problem(s) does this project solve? ${data.problem}
+- What did you learn? ${data.learn}
 
-    ## Table of Contents
+## Table of Contents
      
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    ${renderLicenseTOC(data.license)}
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+${renderLicenseTOC(data.license)}
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    ## Installation(#table-of-contents)
+## Installation (#table-of-contents)
 
-    ${data.installation}
+${data.installation}
 
-    ## Usage(#table-of-contents)
+## Usage (#table-of-contents)
 
-    ${data.usage}
+${data.usage}
 
-    ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 
-    ## Contributing(#table-of-contents)
+## Contributing (#table-of-contents)
 
-    ${data.contributors}
+${data.contributors}
 
-    ## Tests(#table-of-contents)
+## Tests (#table-of-contents)
 
-    ${data.test}
+${data.test}
 
-    ## Questions(#table-of-contents)
+## Questions (#table-of-contents)
 
-    Please contact me using the following links!
-    [Github](https://github.com/${data.github})
-    [Email ${data.email}](mailto:${data.email})
-    `;
+Please contact me using the following links!
+[Github](https://github.com/${data.github})
+[Email ${data.email}](mailto:${data.email})
+`;
 }
 
 module.exports = generateMarkdown ;
