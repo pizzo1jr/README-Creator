@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
     if (license !== 'no license') {
         return `
-        ![badge](https://img.shields.io/badge/license-${license}-blue)
+![badge](https://img.shields.io/badge/license-${license}-blue)
         `;
     } else {
         return '';
@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
     if (license !== 'no license') {
         return `
-        [${license}](https://choosealicense.com/licenses/${license})
+[${license}](https://choosealicense.com/licenses/${license})
         `;
     } else {
         return '';
@@ -41,7 +41,7 @@ ${renderLicenseLink(license)}
 function renderLicenseTOC(license) {
     if (license !== 'no license') {
     return `
-    * [License](#license)
+* [License](#license)
       `;
     } else {
       return ' ';
@@ -51,8 +51,7 @@ function renderLicenseTOC(license) {
 // Function that will generate the Markdown for the README
 function generateMarkdown(data) {
     return `
-# Title
-${data.title}
+# ${data.title}
 
 ${renderLicenseBadge(data.license)}
     
@@ -75,21 +74,21 @@ ${renderLicenseTOC(data.license)}
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation (#table-of-contents)
+## [Installation](#table-of-contents)
 
 ${data.installation}
 
-## Usage (#table-of-contents)
+## [Usage](#table-of-contents)
 
 ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-## Contributing (#table-of-contents)
+## [Contributing](#table-of-contents)
 
 ${data.contributors}
 
-## Tests (#table-of-contents)
+## [Tests](#table-of-contents)
 
 ${data.test}
 

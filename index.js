@@ -71,6 +71,18 @@ const promptUser = () => {
             }
         },
         {
+            type: 'input',
+            name: 'test',
+            message: 'What test did you run. (Required)',
+            validate: testInput => {
+                if (testInput) {
+                    return true;
+                } else {
+                    console.log('Please enter a test!');
+                }
+            }
+        },
+        {
             type: "input",
             name: 'learn',
             message: 'What did this project help you learn. (Required)',
@@ -108,6 +120,12 @@ const promptUser = () => {
                     return false;
                 }
             }
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message:'Which license will you use for your project?',
+            choices: ['agpl', 'apache', 'mit', 'no license']
         },
         {
             type: 'checkbox',
