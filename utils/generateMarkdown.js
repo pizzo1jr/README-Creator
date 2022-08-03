@@ -93,7 +93,7 @@ ${data.contributors}
 
 ${data.test}
 
-## Questions (#table-of-contents)
+## [Questions](#table-of-contents)
 
 Please contact me using the following links!
 [Github](https://github.com/${data.github})
