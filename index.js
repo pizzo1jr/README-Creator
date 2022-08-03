@@ -20,33 +20,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'github',
-            message: 'Please enter your GitHub username. (Required)',
-            validate: githubInput => {
-                if (githubInput) {
-                    return true;
-                } else {
-                    console.log('Please enter your GitHub username!');
-                    return false;
-                }
-            }
-        },
-        // {
-        //     type: 'input',
-        //     name: 'repo',
-        //     message: 'Please enter the name of your Repository. (Required)',
-        //     validate: repoInput => {
-        //         if (repoInput) {
-        //             return true;
-        //         } else {
-        //             console.log('Please enter name of your Repository!');
-        //             return false;
-        //         }
-        //     }
-        // },
-        {
-            type: 'input',
-            mane: 'description',
+            name: 'description',
             message: 'Provide a general description of your application. (Required)',
             validate: descriptionInput => {
                 if (descriptionInput) {
@@ -167,7 +141,7 @@ const writeFile = fileContent => {
                 reject(err);
                 return;
             }
-            
+
             resolve({
                 ok: true,
                 message: 'file created'
