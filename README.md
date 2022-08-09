@@ -1,4 +1,4 @@
-# Node.js README Generator
+# README Creator
 
 
 ![badge](https://img.shields.io/badge/license-agpl-blue)
@@ -6,15 +6,12 @@
     
 ## [Description](#table-of-contents)
 
-This code is a README Generator that makes it much easier to ensure you have the correct data and licenses needed for a proper README file!
+an application that allows for an easy README to be created.
 
-- What was the motivation for this project? To ensure all information in a README is there!
-- Why was this project built? This project was built to create an easy way to create a README file has everything it needs!
-- What problem(s) does this project solve? This project solves the problems of missing information and ensuring the reader has everything needed to run this program
-- What did you learn? more about node.js and how to use the terminal effectively
-
-![2022-08-03_00-28-54](https://user-images.githubusercontent.com/102200085/182524560-b9f29469-5501-46ef-b0a7-47efef24573c.gif)
-
+- What was the motivation for this project? Allows for an easy template to create a README document
+- Why was this project built? to ensure my future README
+- What problem(s) does this project solve? missing information on README documents 
+- What did you learn? inquirer, checking for commas, and how to use node index
 
 ## Table of Contents
      
@@ -30,11 +27,11 @@ This code is a README Generator that makes it much easier to ensure you have the
 
 ## [Installation](#table-of-contents)
 
-Node.js and inquirer
+inquirer then run node index
 
 ## [Usage](#table-of-contents)
 
-you must install node.js and inquirer in order for it to work effectively
+very simple and easy to use 
 
 
 ## [License](#table-of-contents)
@@ -46,7 +43,7 @@ The application is covered under the following license:
 
 ## [Contributing](#table-of-contents)
 
-no contributors at this time
+WOULD NOT LIKE ADDITIONAL CONTRIBUTORS AT THIS TIME
 
 ## [Tests](#table-of-contents)
 
@@ -55,5 +52,5 @@ no tests were run at this tme
 ## [Questions](#table-of-contents)
 
 Please contact me using the following links!
-[Github](https://github.com/pizzo1jr)
-[Email josephpizzo@rocketmortgage.com](mailto:josephpizzo@rocketmortgage.com)
+[Github](https://github.com/PIZZO1JR)
+[Email PIZZO1JR@COMCAST.NET](mailto:PIZZO1JR@COMCAST.NET)
