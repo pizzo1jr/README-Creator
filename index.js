@@ -142,12 +142,6 @@ const promptUser = () => {
             choices: ['agpl', 'apache', 'mit', 'no license']
         },
         {
-            type: 'checkbox',
-            name: 'languages',
-            message: 'What languages did you use to complete this project? (Check all that apply)',
-            choices: ['Javascript', 'HTML', 'CSS', 'E56', 'jQuery', 'Bootstrap', 'Bulma', 'Node', 'Express', 'Inquirer']
-        },
-        {
             type: 'input',
             name: 'email',
             message: 'Please enter your email for other developers to contact you. (Required)',

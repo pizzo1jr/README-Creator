@@ -1,5 +1,5 @@
 
-# Node.js README Generator
+# README Creator
 
 
 ![badge](https://img.shields.io/badge/license-agpl-blue)
@@ -7,14 +7,15 @@
     
 ## [Description](#table-of-contents)
 
-This code is a README Generator that makes it much easier to ensure you have the correct data and licenses needed for a proper README file!
+A general README creator that users can use to create great README documents!
 
-- What was the motivation for this project? To ensure all information in a README is there!
-- Why was this project built? This project was built to create an easy way to create a README file has everything it needs!
-- What problem(s) does this project solve? This project solves the problems of missing information and ensuring the reader has everything needed to run this program
-- What did you learn? more about node.js and how to use the terminal effectively
 
-## Table of Contents
+- What was the motivation for this project? To ensure that I have all the information needed in order for me or another user to write a great README!
+- Why was this project built? I wanted to make sure that I was giving as much detail as possible when it comes to my README documentation!
+- What problem(s) does this project solve? not being as descriptive as I possibly could be. With the answering of these questions, I have a better idea of what I need to put in my README documentation!
+- What did you learn? node.js, inquirer package, and making sure I spell words correctly the first time.
+
+## [Table of Contents](#table-of-contents)
      
 - [Description](#description)
 - [Installation](#installation)
@@ -28,11 +29,11 @@ This code is a README Generator that makes it much easier to ensure you have the
 
 ## [Installation](#table-of-contents)
 
-Node.js and inquirer
+you will need to install inquirer through the terminal!
 
 ## [Usage](#table-of-contents)
 
-you must install node.js and inquirer in order for it to work effectively
+Should be able to clone my repo and just install inquirer npm install inquirer. Once that is completed, run node index   an d answer the following questions!
 
 
 ## [License](#table-of-contents)
@@ -44,14 +45,14 @@ The application is covered under the following license:
 
 ## [Contributing](#table-of-contents)
 
-no contributors at this time
+no additional contributors at this time please! Thank you!
 
 ## [Tests](#table-of-contents)
 
-no tests were run at this tme
+there were not tests currently run on this project
 
 ## [Questions](#table-of-contents)
 
 Please contact me using the following links!
 [Github](https://github.com/pizzo1jr)
-[Email josephpizzo@rocketmortgage.com](mailto:josephpizzo@rocketmortgage.com)
+[Email pizzo1jr@rocketmortgage.com](mailto:pizzo1jr@rocketmortgage.com)

@@ -59,12 +59,13 @@ ${renderLicenseBadge(data.license)}
 
 ${data.description}
 
+
 - What was the motivation for this project? ${data.what}
 - Why was this project built? ${data.why}
 - What problem(s) does this project solve? ${data.problem}
 - What did you learn? ${data.learn}
 
-## Table of Contents
+## [Table of Contents](#table-of-contents)
      
 - [Description](#description)
 - [Installation](#installation)
