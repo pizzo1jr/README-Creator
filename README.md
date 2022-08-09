@@ -8,7 +8,7 @@
 
 A general README creator that users can use to create great README documents!
 
-
+Please see YouTube link for video walkthrough!
 https://youtu.be/htcz50pVHaY
 
 - What was the motivation for this project? To ensure that I have all the information needed in order for me or another user to write a great README!
