@@ -8,7 +8,7 @@
 
 A general README creator that users can use to create great README documents!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/htcz50pVHaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 https://youtu.be/htcz50pVHaY
 
 - What was the motivation for this project? To ensure that I have all the information needed in order for me or another user to write a great README!
